@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinDog</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3ef2a52c50.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <!-- Nav Bar -->
+
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tindog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Precio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Descargar</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Conoce nuevos e interesantes caninos cerca.</h1>
+            <button type="button" class="btn download btn-dark btn-lg">
+              <i class="fa-brands fa-apple"></i> Descargar
+            </button>
+            <button type="button" class="btn download btn-outline-light btn-lg">
+              <i class="fa-brands fa-google-play"></i> Descargar
+            </button>
+          </div>
+
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4 col-md">
+          <i class="icon fas fa-solid fa-circle-check fa-3x"></i>
+          <h3>Facil de usar.</h3>
+          <p>Tan simple, hasta tu humano podria usarlo.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md">
+          <i class="icon fas fa-solid fa-bullseye fa-3x"></i>
+          <h3>Clientela de Elite</h3>
+          <p>Tenemos todas las razas, las mejores razas.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md">
+          <i class="icon fas fa-solid fa-heart fa-3x"></i>
+          <h3>Exito garantizado.</h3>
+          <p>Encuentra al amor de tu vida o te devolvemos el dinero.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              Ya no tengo que olfatear para encontrar el amor. Conoci a la Corgi
+              mas hermosa en TinDog. Guau!
+            </h2>
+            <img
+              class="testimonial-img"
+              src="images/dog-img.jpg"
+              alt="dog-profile"
+            />
+            <em>Ciro, Tero Chueco</em>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>Un plan para las necesidades de cada perro.</h2>
+      <p>Precios simples y accesibles para ti y tu mascota.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Gratis</h2>
+            <p>5 Matches por Dia</p>
+            <p>10 Mensajes por Dia</p>
+            <p>Uso ilimitado de la app</p>
+            <button class="btn btn-block btn-outline-dark btn-lg" type="button">Registrarse</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+        <div class="card-header">
+          <h3>Labrador</h3>
+        </div>
+        <div class="card-body">
+          <h2>$49 / m</h2>
+          <p>Matches ilimitados</p>
+          <p>Mensajes ilimitados</p>
+          <p>Uso ilimitado de la app</p>
+          <button class="btn btn-lg btn-block btn-dark" type="button">Registrarse</button>
+        </div>
+      </div>
+      </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+        <div class="card-header">
+          <h3>Mastiff</h3>
+        </div>
+        <div class="card-body">
+          <h2>$99 / m</h2>
+          <p>Listado de prioridades</p>
+          <p>Matches ilimitados</p>
+          <p>Mensajes ilimitados</p>
+          <p>Uso ilimitado de la app</p>
+          <button class="btn btn-lg btn-block btn-dark" type="button">Registrarse</button>
+        </div>
+      </div
+      </div>
+    </div>
+
+      
+
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="cta">
+        <h3 class="cta-text">Encuentra el Amor Verdadero de tu Perro Hoy.</h3>
+        <button type="button" class="btn download btn-dark btn-lg">
+          <i class="fa-brands fa-apple"></i> Descargar
+        </button>
+        <button type="button" class="btn download btn-outline-light btn-lg">
+          <i class="fa-brands fa-google-play"></i> Descargar
+        </button>
+      </div>
+      
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="fa-brands fa-twitter footer-icon"></i>
+      <i class="fa-brands fa-facebook footer-icon"></i>
+      <i class="fa-brands fa-instagram footer-icon"></i>
+      <i class="fa-solid fa-envelope footer-icon"></i>
+      <p>© Copyright TinDog</p>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</html>
